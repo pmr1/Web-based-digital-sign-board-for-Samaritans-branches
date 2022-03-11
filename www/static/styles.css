@@ -1,0 +1,100 @@
+ .table {
+    border-spacing: 5px;
+    margin: 2rem;
+    background-color: #f5d5d5;
+ }
+
+
+ .table__row:nth-child(even){
+    background-color: #e5e5e5 ;
+ }
+
+ .table__header {
+    text-align: center;
+     word-wrap: break-word;
+     font-family: Verdana;
+     font-size: 22px;
+     font-weight: bold;
+     background-color: cornflowerblue;
+ }
+
+ .table__event {
+    text-align: left;
+     word-wrap: break-word;
+     font-family: Verdana;
+     font-size: 20px;
+     font-weight: bold;
+     background-color: green;
+ }
+
+ .leader__header
+   {
+    text-align: center;
+     font-family: Verdana;
+     font-weight: bold;
+     font-size: 20px;
+     word-wrap: break-word;
+     border: 2px solid green;
+     background-color: lightcoral;
+     padding 2px
+ }
+ .table__cell{
+    text-align: center;
+     font-family: Verdana;
+     font-weight: bold;
+     font-size: 14px;
+     word-wrap: break-word;
+     border: 2px solid green;
+     background-color: floralwhite ;
+   padding: 2px;
+ }
+
+ .table__cell_closed{
+    text-align: center;
+     font-family: Verdana;
+     word-wrap: break-word;
+     border: 2px solid green;
+     background-color: black ;
+   padding: 2px;
+ }
+
+ .table__cell_prison{
+    text-align: center;
+     font-family: Verdana;
+     word-wrap: break-word;
+     border: 2px solid green;
+     background-color: lime ;
+   padding: 2px;
+ }
+
+ .table__news {
+    border-spacing: 5px;
+    colspan :2;
+    margin: 2rem;
+    width : 1800px%;
+    background-color: #f5d5d5;
+ }
+
+ table__news_cell:nth-child(even){
+    background-color: #e5e5e5 ;
+    rowspan:900px;
+    height : 80px;
+ }
+
+.table__cell_news{
+    text-align: center;
+     font-family: Verdana;
+     word-wrap: break-word;
+     border: 2px solid green;
+     background-color: black ;
+   padding: 2px;
+ }
+
+ .myDiv_relative {
+  position: relative;
+  width: 80px;
+  left: 30px;
+  border: 2px solid green;
+  padding: 5px;
+  margin: 2px;
+}
