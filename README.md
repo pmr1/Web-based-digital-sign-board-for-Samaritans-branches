@@ -11,14 +11,8 @@ The author suggests this is generic enough to extract any data from any web sour
 
 # Code files
 local home directory (LHD) is /home/your local directory 
-
-	
   
-www/readChStateM16.py   # resides in  FlaskApp directory
-dependencies
-	config
-  
-scrape79.py  # resides in local home directory
+	scrape79.py  # resides in local home directory
 dependencies
    json
    from datetime import *; from dateutil.relativedelta import *
