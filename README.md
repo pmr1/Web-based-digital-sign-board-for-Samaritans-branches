@@ -12,21 +12,9 @@ The author suggests this is generic enough to extract any data from any web sour
 # Code files
 local home directory (LHD) is /home/your local directory 
 
-	Samboar161.py  # resides in /var/www/html/FlaskApps directory
-
-	The /var/www/html/indexPages are linked to a the local home directory
-	/home/LHD/indexPages
-	dependencies
-		flask 
-		Flask, 
-		render_template, 
-		jsonify, request
-		ast import literal_eval
-		time
-		readChStateM16 as CHS
-		config
+	
   
-readChStateM16.py   # resides in  FlaskApp directory
+www/readChStateM16.py   # resides in  FlaskApp directory
 dependencies
 	config
   
@@ -76,4 +64,19 @@ Log file from crontab is /home/LHD/indexPages/cronLog1.txt
 # Web apps
 Samboard161.py via FlaskApp f
 	assumes page <name>  (file /var/www/html/FlaskApps/templates/table31.html )
+www/Samboar161.py  # resides in /var/www/html/FlaskApps directory
 
+	The /var/www/html/indexPages are linked to a the local home directory
+	/home/LHD/indexPages
+	dependencies
+		flask 
+		Flask, 
+		render_template, 
+		jsonify, request
+		ast import literal_eval
+		time
+		readChStateM16 as CHS
+		config
+
+esp8266  # central heating controller running micropython
+	
