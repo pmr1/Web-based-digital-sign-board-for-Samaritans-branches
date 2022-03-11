@@ -1,0 +1,8 @@
+1. /var/log/apache2/error.log
+reports the follwing error
+
+Thu Mar 10 14:26:24.125416 2022] [wsgi:error] [pid 27753:tid 281471755481488] [client 127.0.0.1:50464] 2270
+
+but does not stop operation
+
+2. main280621.py running in micropython may have stability issues in pythonmachine verion esp8266 1.18 for 1Mbyte flash space  from micropython.org
