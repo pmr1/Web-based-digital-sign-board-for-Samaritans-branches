@@ -72,9 +72,10 @@ www/Samboar161.py  # resides in /var/www/html/FlaskApps directory
 		readChStateM16 as CHS
 		config
 # Micropython
-	The central heating controller running micropython, is built around esp03 ( esp8266 variant) and provides zero crossing switch triac control of central heating system.
- 	see circuits. Cad files available in gerber format
-esp8266
+	The central heating controller running micropython, is built around esp03 ( esp8266 variant) and provides zero crossing switch 
+	triac control of central heating system. see circuits. Cad files available in gerber format
+	
+	esp8266
 		main280621.py
 	dependences
 		encrypt7Mod.py
