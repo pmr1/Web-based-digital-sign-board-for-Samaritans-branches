@@ -77,6 +77,11 @@ www/Samboar161.py  # resides in /var/www/html/FlaskApps directory
 		time
 		readChStateM16 as CHS
 		config
-
-esp8266  # central heating controller running micropython
+# Micropython 
+  # central heating controller running micropython
+	esp8266
+		main280621.py
+	dependences
+		encrypt7Mod.py
+		
 	
