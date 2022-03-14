@@ -13,14 +13,14 @@ The author suggests this is generic enough to extract any data from any web sour
 local home directory (LHD) is /home/your local directory 
   
 	scrape79.py  # resides in local home directory
-dependencies
-   json
-   from datetime import *; from dateutil.relativedelta import *
-   config
-   calendar
-   dateutil.parser
-   from dateutil.parser import parse
-   requests
+	dependencies
+   		json
+   		from datetime import *; from dateutil.relativedelta import *
+   		config
+   		calendar
+   		dateutil.parser
+   		from dateutil.parser import parse
+   		requests
    writeCfg35M as WC
 	 writeCfg35M.py # resides in LHD
 	 no dependencies
@@ -46,7 +46,7 @@ dependencies
 		config
 		writeCfgM35 as WC
 
-# Time File Sequence by crontab
+# Timed File Sequence by crontab
 
 */5 * * * * /usr/bin/python3 /home/LHD/python3/centralHeatControl31.py >> /home/LHD/indexPages/cronLog1.txt 2>&1
 3 * * * * /usr/bin/python3 /home/LHD/python3/scrape79.py >> /home/LHD/indexPages/cronLog1.txt 2>&1
@@ -73,7 +73,7 @@ www/Samboar161.py  # resides in /var/www/html/FlaskApps directory
 		config
 # Micropython
 	The central heating controller running micropython, is built around esp03 ( esp8266 variant) and provides zero crossing switch 
-	triac control of central heating system. see circuits. Cad files available in gerber format
+	triac control of central heating system. See circuits. Cad files for the pcb are available in gerber format on request
 	
 	esp8266
 		main280621.py
