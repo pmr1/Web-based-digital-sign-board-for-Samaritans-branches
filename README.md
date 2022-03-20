@@ -57,10 +57,10 @@ Log file from crontab is located /home/LHD/indexPages/cronLog1.txt
 
 # Web apps
 Samboard161.py via FlaskApp f
-	assumes page <name>  (file /var/www/html/FlaskApps/templates/table31.html )
-www/Samboar161.py  # resides in /var/www/html/FlaskApps directory
+	assumes page <name>  (file location /var/www/html/FlaskApps/templates/table31.html )
+	Samboar161.py  # resides in /var/www/html/FlaskApps directory
 
-	The /var/www/html/indexPages are linked to a the local home directory
+	The /var/www/html/indexPages are linked to directory of same name the local home directory
 	/home/LHD/indexPages
 	dependencies
 		flask 
